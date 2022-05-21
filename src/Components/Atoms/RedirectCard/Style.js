@@ -12,6 +12,7 @@ const card = (value) => {
     flexDirection: "column",
     alignContent: "center",
     textAlign: "center",
+    marginTop: "8rem",
     ":hover": {
       boxShadow: 6,
       '& .MuiDivider-root': {

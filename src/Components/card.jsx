@@ -8,7 +8,7 @@ import Divider from '@mui/material/Divider';
 
 export default function MediaCard({img, tittle, description}) {
   return (
-    <Card sx={{ maxWidth: 200,height:300, borderRadius:45, display:'flex', paddingTop:'2rem',
+    <Card sx={{ maxWidth: 200,height:300, borderRadius:45, display:'flex', paddingTop:'4rem',
     alignItems:'center',flexDirection:'column', alignContent:'center', textAlign:'center' }}>     
       <img style={{marginBottom:"1.5rem"}}
         src={img}
